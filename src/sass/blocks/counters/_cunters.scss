@@ -1,0 +1,12 @@
+.counters {
+    display: flex;
+    .counterts__item {
+        margin: 0 28px 0 0;
+        span {
+            font-weight: 700;      
+        }
+    }
+}
+.counters--margin {
+    margin: $margin;
+}

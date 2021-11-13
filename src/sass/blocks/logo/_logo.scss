@@ -1,0 +1,15 @@
+.logo {
+    position: absolute;
+    top: 0;
+    .logo__img {
+        position: absolute;
+        top: 6px;
+        left: 380px;
+    }
+    .logo__bg {
+        position: relative;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
+}

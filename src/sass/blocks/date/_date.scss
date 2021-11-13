@@ -1,0 +1,18 @@
+.date {
+    display: flex;
+    width: 28vw;
+    .date__text {
+        font-family: Roboto;
+        font-weight: 700;
+        margin: 0 11px 0 0;
+    }   
+    .date__input {
+        margin: 0 30px 0 0;
+    }
+    .date__input:last-child {
+        margin: 0;
+    }
+}
+.date--margin {
+    margin: $margin;
+}

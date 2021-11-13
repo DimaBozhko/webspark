@@ -1,0 +1,84 @@
+.posts {
+    width: 900px;
+    .posts-item {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        margin: 0 0 10px 0;
+        .post-item__img {
+            height: 86px;
+            width: 86px;
+            margin: 0 30px 0 0;
+        }
+        .post-item__img--change-layout {
+            height: 203px;
+            width: 203px;  
+            margin: 0 0 12px 0;
+        }
+        .counters-posts {
+            width: 10vw;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto 0 0;
+            .wrapper {
+                display: flex;
+                margin: 0 20px 0 0;
+            }
+        }
+        .counters-posts:nth-child(3) {
+            .wrapper {
+                margin: 0 30px 0 0;
+            }
+        }
+        .counters-posts:nth-child(4) {
+            margin: 0 30px 0 0;
+        }
+        .post-item__text {
+            width: 100%;
+            margin: 0 0 10px 0;
+            font-family: Roboto;
+            font-weight: 700;
+        }
+        .post-item__icon {
+            margin: 0 5px 0 0;
+        }
+        .counters-posts--change-layout {
+            width: 50%;
+            flex-direction: column;
+            margin: 0;
+            
+            .post-item__text {
+                width: auto;
+                
+            }
+        }
+        .counters-posts--change-layout:nth-child(2) {
+            padding-left: 10px;
+        }
+        .counters-posts--change-layout:nth-child(3) {
+            padding-right: 10px;
+        }
+        .counters-posts--change-layout:nth-child(4) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            margin: 20px 0 0 0;
+            padding: 0 10px;
+            .post-item__text {
+                width: auto;
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+    }
+    .posts-item--change-layout {
+        flex-wrap: wrap;
+        width: 203px;
+        margin: 0 8px 16px 0;
+    }
+}
+.posts--change-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
